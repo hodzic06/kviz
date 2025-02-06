@@ -24,12 +24,12 @@
 
 .content{
     width: 100vw;
-    height: 88vh;
+    height: 92vh;
     display: flex;
     background-image: url(./photos/background.png);
     background-repeat: no-repeat;
-    background-size: contain;  
-    background-position: end;
+    background-size: 65vw;  
+    background-position: right;
     justify-content: center;
     align-items: center;
 
@@ -37,7 +37,7 @@
 
 .main-content{
     width: 82vw;
-    height: 90%;
+    height: 88%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -52,6 +52,18 @@
     color: #2559D2;
     margin-bottom: 20px;
 }
+
+.first-paragraph{
+    color: #00000099;
+    font-weight: 400;
+    font-size: 20px;
+} 
+
+.second-paragraph{
+    color: #00000099;
+    font-weight: 400;
+    font-size: 16px;
+} 
 
 .logo{
     width: 132px;
@@ -71,6 +83,11 @@
     padding-left: 50px;
 }
 
+.navigation a{
+    color: #000000;
+    text-decoration: none;
+}
+
 .navigation ul{
     display: flex;
     justify-content: space-between;
@@ -82,7 +99,18 @@
     line-height: 20.8px;
     align-items: center;
     cursor: pointer;
+}
 
+.black-text{
+    color: #000000;
+}
+
+.mini-border{
+    width: 384px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttons{
@@ -123,4 +151,151 @@
     color: white;
     border-radius: 10px;
     border: none;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 700;
 }
+
+.instructions-container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ins-content{
+    width: 82vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-content{
+    background-color: white;
+    width:82vw;
+    height: 275px;
+}
+
+.bottom-content{
+    width: 82vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#card{
+    width: 325px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.first-card{
+    background-image: url(./photos/first-card.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second-card{
+    background-image: url(./photos/second-card.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third-card{
+    background-image: url(./photos/third-card.jpeg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.upper-content{
+    width: 82vw;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.icon-box{
+    width: 50vw;
+    height: 52px;
+    background-image: url(./photos/icon.svg);
+    background-repeat: no-repeat;
+}
+
+.icon-box h1{
+    margin-left: 80px;
+}
+
+.upper-content h1{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+
+.lower-content p{
+    font-size: 16px;
+    color: #00000099;
+    line-height: 20.8px;
+    font-weight: 400;
+}
+
+.lower-content{
+    width: 82vw;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.leaderboard-container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.lead-content{
+    width: 82vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.leaderboard{
+    width: 82vw;
+    height: 620px;
+    background-color: #2559D2;
+    border-radius: 20px;
+}
+
+#instruction{
+    margin-top: 40px;
+}
+
+#second-start{
+    width: 280px;
+    height: 50px;
+    background-color: #2559D2;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
