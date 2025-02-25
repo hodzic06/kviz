@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Steradian TRIAL', sans-serif;
 }
+
 .register-container {
   display: flex;
   width: 100vw;
@@ -12,7 +14,10 @@
 .register-img {
   height: 100vh;
   width: 55vw;
-  background-color: red;
+  background-image: url('./photos/registerbackground.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .register-form {
   width: 45vw;
